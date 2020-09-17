@@ -3,7 +3,7 @@ body {
 }
 
 table { 
-    width: 65%;
+    width: 60%;
     border-spacing: 0px;
     background-color:#333232;
     color: rgb(112, 111, 111);
@@ -14,11 +14,18 @@ table {
     
 }
 
-table tr th, table tr td {
+table tr th {
     border-bottom: 2px solid #777;
-    padding: 10px;
-    
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 3px;
+ 
+}
 
+table tr td {
+    border-bottom: 2px solid #777;
+    height: 20px;
+    padding: 10px;
 }
 
 table tr th:first-of-type,
@@ -80,22 +87,25 @@ td {
     margin-right: 5px;
 }
 
+.search {
+    height: 30px;
+    padding: ;
+}
 .search input {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: inline-block;
-    height: 30px;
     background: rgb(70 68 68);
     background-image: url(search.png);
     color: darkgrey;
     background-position: 10px 7px;
     background-repeat: no-repeat;
-    padding: 10px 35px 10px 35px;
     border: none;
     outline: none;
     border-radius: 6px;
     border-spacing: 0px;  
+    padding: 12px 40px 12px 40px;
 }
 
 .dots_1 {
